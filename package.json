@@ -1,7 +1,6 @@
 {
   "name": "practiceUnitTesting",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +9,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^26.0.15",
-    "jest": "^26.6.2",
-    "ts-jest": "^26.4.3",
-    "typescript": "^4.0.5"
-  }
+    "@types/jest": "^26.0.24",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iuliiabarbash/practiceUnitTesting_qa2.01.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Iuliiabarbash/practiceUnitTesting_qa2.01/issues"
+  },
+  "homepage": "https://github.com/Iuliiabarbash/practiceUnitTesting_qa2.01#readme",
+  "description": ""
 }
