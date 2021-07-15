@@ -25,6 +25,8 @@ describe("testing assertions", () => {
     sentence.includes("fox");
     expect(hello.includes("Hi There")).toBeFalsy();
     expect(sentence.includes("fox")).toBeTruthy();
+    expect(sentence).toMatch('fox');
+    
   });
 
   it("asserts on things being the same", () => {
@@ -35,7 +37,10 @@ describe("testing assertions", () => {
 
     // Add a passing assertion comparing numberCompare1 and numberCompare2 based on being equal
     expect(numberCompare1).not.toEqual(numberCompare2);
+    // expect(numberCompare1.equals(numberCompare2)).toBe(false);
+
     expect(stringCompare1).toEqual(stringCompare2);
+    // expect(stringCompare1.equals(stringCompare2)).toBe(true);
 
     // Add a passing assertion comparing stringCompare1 and stringCompare2 based on being equal
   

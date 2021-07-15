@@ -4,6 +4,7 @@ describe("value testing", () => {
     expect(stringCheck("test")).toBeTruthy();
     expect(stringCheck("Test 2")).toBeTruthy();
     expect(stringCheck(1000)).toBeFalsy();
+    expect(stringCheck('100')).toBeTruthy();
   });
   test("numbers are numbers", () => {
     expect(3.14159).toBe(3.14159);
